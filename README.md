@@ -6,7 +6,6 @@ A responsive assignment management system with Persian (RTL) support, built with
 
 ## Features
 
-- 📅 Full-screen assignment sections (آتی and گذشته)
 - 📱 Fully responsive design
 - 🔍 Search functionality for assignments
 - 🗂 Sorting by type or date
