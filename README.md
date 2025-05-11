@@ -6,10 +6,9 @@ A responsive assignment management system with Persian (RTL) support, built with
 
 ## Features
 
-- 📱 Fully responsive design
 - 🔍 Search functionality for assignments
 - 🗂 Sorting by type or date
-- 🖥 Clean, modern UI with Persian support
+- 🖥 Clean, modern UI with Persian support (for Despktop)
 - 🎨 Custom styling with CSS (no Tailwind dependency)
 
 ## Installation
@@ -34,33 +33,19 @@ npm run dev
 
 ```
 /src
-├── App.jsx          # Main application component
-├── main.jsx         # Entry point
+├── main.jsx        
 ├── style.css        # Custom CSS styles
-├── components/
-│   ├── SidebarMenu.jsx  # Sidebar navigation
-│   ├── AssignmentCard.jsx # Individual assignment cards
-│   └── AssignmentSection.jsx # Assignment sections
+├── SidebarMenu.js  # Sidebar navigation
 ```
 
 ## Customization
 
-### Changing Colors
-Edit `style.css` to modify:
-- Sidebar link colors (blue by default)
-- Main content link colors (gray by default)
-- Background and card colors
 
 ### Adding Features
-1. To add new assignment types, modify the `assignments` array in App.jsx
+1. To add new assignment types, modify the `assignments` array in index.js
 2. To change the layout, edit the CSS classes in style.css
 
-## Technologies Used
 
-- React 18
-- Vite (for fast development)
-- Lucide React (for icons)
-- Custom CSS (no UI frameworks)
 
 ## Contributing
 
